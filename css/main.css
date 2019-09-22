@@ -2,6 +2,7 @@ html{
     margin: 0;
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
 }
 body{
     margin: 0px;
@@ -54,4 +55,24 @@ body{
     font-weight: 300;
     margin: 0px;
     font-size: 2.2rem;
+}
+
+/* MAIN */
+main{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(61, 24, 61);
+    text-align: center;
+}
+
+#about{
+    padding: 45px;
+    text-align: center;
+    color: white;
+}
+
+#about h2{
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
