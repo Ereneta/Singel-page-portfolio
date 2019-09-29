@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="js/main.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -14,8 +15,8 @@
                 <ul class="nav-menu">
                     <li class="menu-item"><a href="#">Home</a></li>
                     <li class="menu-item"><a href="#about">About me</a></li>
-                    <li class="menu-item"><a href="#">Skills</a></li>
-                    <li class="menu-item"><a href="#">Contact</a></li>
+                    <li class="menu-item"><a href="#skills">Skills</a></li>
+                    <li class="menu-item"><a href="#conatact">Contact</a></li>
                 </ul>
                 <div class="portfolio-profile">
                     <img src="img/me.jpg">
@@ -28,10 +29,53 @@
     <main>
         <div id="about">
             <h2>About me</h2>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reprehenderit ut esse odio debitis officiis perferendis nobis neque sed facere eius qui adipisci omnis mollitia amet magni deserunt, quasi quae voluptates ad necessitatibus consequatur praesentium cum voluptatum. Voluptatibus nam exercitationem commodi dolores officia soluta laboriosam, minima perferendis autem sapiente, quas eveniet consequatur alias nostrum sunt debitis accusantium voluptatum voluptatem distinctio sed aperiam impedit tenetur. Mollitia nostrum nesciunt, dolores vel dicta facere? Rem vitae nulla aut laboriosam laudantium quisquam aliquam quis excepturi, quia eum aperiam odio esse perspiciatis dignissimos ducimus ipsa cupiditate in, incidunt quas magni! Sint vel accusamus harum aliquam suscipit in ipsam ducimus similique provident odit consequatur temporibus commodi eius ab, atque accusantium sequi voluptate! Unde inventore necessitatibus reprehenderit expedita ipsam amet, nobis impedit laborum aperiam eaque enim corporis ipsum, adipisci asperiores iure harum exercitationem non suscipit sed ab eius magnam vero corrupti est. Quos laboriosam suscipit pariatur sit.
-
-            </p>
+            <p>My name is Fritz Ashley B. Ereneta. and i am a 2nd year College student currently taking BS Information technologist at Adventist University of the Phillipines in Puting,Kahoy silang,Cavite. Everyone can say that i am Normal Student and i am still trying to learn the things in my life.</p>
+        </div>
+        <div id="skills">
+            <h2>SKILLS</h2>
+            <div class="skill-main-grid">
+            <div class="skill-grid1">
+                <h2>Confidence around a computer</h2>
+                <p>This is very obvious to me because sometimes when i am on a computer i feel like not trusted because i might break something that don't know what it is but sometimes i am able to handel the situation that i have.</p>
+            </div>   
+            <div class="skill-grid2">
+                <h2>Resourcefulness</h2>
+                <p>because most of what I know is the result of searching for the answer in search engines such as google. There is an art to searching for answers on the internet and it is a vital skill for any programmer.</p>
+            </div>
+            <div class="skill-grid3">
+                <h2>Communictation skills</h2>
+                <p>As a programmer communication is required because you will need to talk to your colleagues so that you can finish you work fast but for me I am not a talkative person i do tend to be quiet when there is a group work but sometimes i do give some ideas on what to do but not that much so as i try to talk as much as possible i will have a good communication skills to my colleagues.</p>
+            </div>
+            <div class="skills-grid4">
+                <h2>Inquisitive mind</h2>
+                <p>I am not a smart person but i am trying to find ways to improve my thinking ability .</p>
+            </div> 
+            </div>   
         </div>
     </main>
+        <footer>
+            <form class="portfolio-form">
+                <h2>Send me a message</h2>
+                <div class="form-row">
+                    <label class="form-label">Subject:</label>
+                    <div class="form-input">
+                        <input id="mailSubject" class="form-input-text" type="text">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label class="form-label">Message:</label>
+                    <div class="form-input">
+                        <textarea id="mailMessage" class="form-input-textarea" type="text"></textarea>
+                    </div>
+                </div>
+                <div class="form-submit">
+                    <a onmouseover="appendMailTo()" id="sendMail" href="mailto:fereneta885@gmai.com" class="btn-submit">Submit</a>
+                </div>
+            </form>
+            <div class="footer">
+                    Copyright &copy; <span id="getYear"></span>
+            </div>
+        </footer>
+     
 </body>
 </html>
