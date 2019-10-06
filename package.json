@@ -4,7 +4,8 @@
   "description": "My portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/Ereneta/Singel-page-portfolio/issues"
   },
-  "homepage": "https://github.com/Ereneta/Singel-page-portfolio#readme",
+  "homepage": "https://github.io/Ereneta/Singel-page-portfolio#readme",
   "dependencies": {
     "gh-pages": "^2.1.1"
   }

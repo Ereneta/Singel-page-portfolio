@@ -67,6 +67,7 @@ main{
 
 #about{
     padding: 45px;
+    font-size: 15px;
     text-align: center;
     color: white;
 }
@@ -150,9 +151,25 @@ main{
     background: grey;
 }
 
-@media only screen and (max-width: 668px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      width: 100%;
-    }
+@media  screen and (max-width: 668px) {
+   .skill-main-grid, .languages-main-grid{
+       grid-template-columns: repeat(1, 1fr);
+   }
+
+   .portfolio-menu ul{
+       justify-content: center;
+   }
+
+   .portfolio-hero {
+       background: url(../img/Aurora\ lights.jpg);
+       background-size: cover;
+       text-align: center;
+       color: aqua;
+       padding: 70px;
+   }
+
+   .portfolio-profile{
+       margin: 0;
+   }
+
   }
