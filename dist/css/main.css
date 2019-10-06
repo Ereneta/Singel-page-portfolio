@@ -99,6 +99,9 @@ main{
     padding: 10px 0px;
     font-size: 1.3rem;
 }
+.form-row{
+    padding: 10px;
+}
 .form-input input{
     width: 100%;
     padding: 7px 0px;
@@ -127,11 +130,18 @@ main{
     margin-top: 4px;
     text-align: right;
 }
+.portfolio-form{
+    background-color:lightblue;
+}
+.portfolio-form h2{
+    margin: 0;
+}
 .btn-submit{
-    padding: 5px 15px;
+    padding: 3px 15px;
+    margin-top: 5px;
     text-decoration: none;
-    color: blue;
-    background-color: darkslategrey;
+    color:white;
+    background-color: black;
 }
 .footer{
     color: aqua;
@@ -139,3 +149,10 @@ main{
     padding: 20px;
     background: grey;
 }
+
+@media only screen and (max-width: 668px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
