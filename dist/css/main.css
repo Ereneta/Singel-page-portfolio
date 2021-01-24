@@ -10,7 +10,7 @@ body{
     right: 0;
 }
 .portfolio-hero{
-    background: url(../img/zac-ong-R4FNA3RyIHA-unsplash.jpg) no-repeat center center fixed;
+    background: url(../img/wallhaven-j5mz95.png) no-repeat center center fixed;
     height: 100vh;
     background-size: cover;
     text-align: center;
@@ -61,7 +61,7 @@ body{
 main{
     margin: 0;
     padding: 0;
-    background-color: #003f4b;
+    background-color: royalblue;
     text-align: center;
 }
 
