@@ -129,7 +129,7 @@ main{
 }
 .form-submit{
     margin-top: 4px;
-    text-align: right;
+    text-align: center;
 }
 .portfolio-form{
     background-color:lightblue;
@@ -140,7 +140,9 @@ main{
 .btn-submit{
     padding: 3px 15px;
     margin-top: 5px;
-    text-decoration: none;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    text-decoration: white;
     color:white;
     background-color: black;
 }
